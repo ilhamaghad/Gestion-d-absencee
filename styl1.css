@@ -1,0 +1,350 @@
+body{
+   
+   background-color: rgba(169, 231, 247);
+   font-family: 'Roboto';
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url(./Roboto-Bold.ttf);
+}
+.navbar{
+    display: flex;
+    list-style-type: none;
+    max-width: 100%;
+    gap: 400px;
+}
+.navbar a{
+    text-decoration: none;
+    color :rgb(169, 231, 247);
+    font-size: 16px;
+    display: inline;
+}
+header{
+    width: 100%;
+    position: fixed;
+    background-image: url(rectangl.png);
+    z-index: 2;
+    background-color: white;
+}
+#first{
+    justify-content: space-between;
+margin-right: 10px;
+}
+.headr{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    right:4px;
+}
+
+.prof{
+  position: relative;
+  top: 85px;
+  border-radius: 50%;
+  width: 321px;
+  height: 265px;
+  left: 431px;
+ background-color: rgba(169, 231, 247);
+}
+#teacher{
+    height: 181px;
+    width: 191px;
+    position: relative;
+    top: 36px;
+    left: 70px;
+}
+#txt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top:-275px;
+    color: rgb(20 101 120);
+    font-size: 43px;
+    margin-left: -58px;
+}
+#bdy{
+    width: 100%;
+    height: 100%;
+ 
+    background-color: white;
+}
+#input{
+    text-align: center;
+}
+#label1{
+    position: absolute;
+    top: 372px;
+    left: 456px;
+    width: 279px;
+    height: 20px;
+}
+#label2{
+    position: absolute;
+    top: 404px;
+    left: 456px;
+    width: 279px;
+    height: 20px;
+}
+.radio-group {
+    display: inline-block; 
+    margin-right: 20px; 
+}
+.button{
+    background-color: white;
+    border-radius: 8px;
+    border: none;
+    display: inline-block;
+    padding: 10px 20px;
+    color: #0000006E;
+    text-decoration: none;
+    cursor: pointer;
+    margin-left: -76px;
+      }
+.rectangle{
+    position: absolute;
+    top: 104px;
+    width: 311px;
+    height: 390px;
+    left: 31px;
+    border-radius: 5px 89px 5px 0px;
+    box-shadow: 0px 0px 56px #0000006E;
+
+}
+#pic{
+    position: relative;
+    width: 108px;
+    height: 120px;
+    left: 116px;
+    top: 156px;
+}
+.h1{
+    position: relative;
+    font-family: 'TungstenCondensed-Semibold';
+    color: #3c3c38;
+    text-align: center;
+    margin-top: -23px;
+    font-size: 45px;
+    line-height: 75px;
+    text-decoration: none;
+    top: 179px;
+    left: -430px;
+}
+.h2{
+    position: relative;
+    font-family: 'TungstenCondensed-Semibold';
+    color: #3c3c38;
+    text-align: center;
+    margin-top: -54px;
+    font-size: 21px;
+    line-height: 38px;
+    text-decoration: none;
+    top: 200px;
+    left: -427px;
+}
+.left-side{
+    position: absolute;
+    background-color: transparent;
+    width:66%;
+    height:77%;
+    top:70px;
+    left:400px;
+    box-shadow: 0px 0px 56px #0000006E;
+    border-radius: 12px;
+
+}
+.container {
+    overflow: hidden;
+    width: 100%;
+    white-space: nowrap;
+    background-color:white;
+    height:50px;
+    margin-top: 280px;
+  }
+.words {
+    display: inline-block;
+    animation: scroll 50s linear infinite;
+  }
+  
+.words span {
+    display: inline-block;
+    margin-right: 20px; 
+    color:#3c3c38;
+    font-family: 'TungstenCondensed-Semibold';
+  }
+
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100% ); /* Largeur de la fenêtre - largeur de tous les mots */
+    }
+  }
+  #saluer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'TungstenCondensed-Semibold';
+    color: #3c3c38;
+  }
+  
+.labels{
+    position: absolute;
+    background-color:  rgba(169, 231, 247);
+    top:19px;
+    left:231px;
+    width:790px;
+    height:330px;
+    box-shadow: 0px 0px 56px #0000006E;
+    border-radius: 0px 89px 0px  89px;
+}
+.body-absc{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+}
+#input1{
+    position: absolute;
+    top: 61px;
+    left: 474px;
+    width: 293px;
+    height: 24px;
+}
+#input2{
+    position: absolute;
+    top: 125px;
+    left: 474px;
+    width: 293px;
+    height: 24px;
+}
+#input3{
+    position: absolute;
+    top: 194px;
+    left: 476px;
+    width: 293px;
+    height: 24px;
+}
+#name{
+    position: relative;
+    left: 32px;
+    font-family: 'TungstenCondensed-Semibold';
+    color: #3c3c38;
+    top: 30px;
+}
+  
+#lastname{
+    position: relative;
+    left: 29px;
+    font-family: 'TungstenCondensed-Semibold';
+    color: #3c3c38;
+    top: 2px;
+}
+  
+#date{
+    position: relative;
+    left: 26px;
+    font-family: 'TungstenCondensed-Semibold';
+    color: #3c3c38;
+    top: -23px;
+}
+#butt{
+    background-color: white;
+    text-decoration: none;
+    cursor: pointer;
+    position: relative;
+    left: 86px;
+    top: 7px;
+    height: 32px;
+    width: 293px;
+    font-family: 'TungstenCondensed-Semibold';
+    color: #3c3c38;
+    border: 1px solid black;
+}
+ul {
+    list-style-type: none;
+  }
+  
+#label8{
+    position: absolute;
+    top: 438px;
+    left: 456px;
+    width: 279px;
+    height: 20px;
+}  
+.navbarr{
+    display: flex;
+    list-style-type: none;
+    max-width: 100%;
+    gap: 200px;
+}
+.navbarr a{
+    text-decoration: none;
+    color :  rgb(20 101 120);
+    font-size: 16px;
+    display: inline;
+    position: relative;
+    top:500px;
+}
+#second{
+    justify-content: space-between;
+margin-left: -5px;
+
+}
+.headrr{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    right:4px;
+}
+#list{
+    position: absolute;
+    top: 337px;
+    left: 468px;
+    color: rgb(20 101 120);
+    font-size: 43px;
+
+}
+/* Style du tableau */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 450px; /* Espace au-dessus du tableau */
+  }
+  
+  /* Style des en-têtes de colonnes */
+  th {
+    background-color: rgb(20, 101, 120); /* Couleur de fond */
+    color: white; /* Couleur du texte */
+    font-size: 16px; /* Taille de police */
+    font-weight: bold; /* Gras */
+    padding: 8px; /* Espacement interne */
+    text-align: left; /* Alignement du texte */
+    border: 1px solid #ddd; /* Bordure */
+  }
+  
+  /* Style des cellules de données */
+  td {
+    padding: 8px; /* Espacement interne */
+    border: 1px solid #ddd; /* Bordure */
+  }
+  
+  /* Style des boutons */
+  button {
+    background-color: white; /* Couleur de fond */
+    color: #3c3c38; /* Couleur du texte */
+    border: none; /* Pas de bordure */
+    padding: 5px 10px; /* Espacement interne */
+    cursor: pointer; /* Curseur de la souris */
+  }
+  
+  /* Style pour marquer la présence */
+  td.present {
+    color: green; /* Couleur du texte */
+  }
+  
+  /* Style pour marquer l'absence */
+  td.absent {
+    color: red; /* Couleur du texte */
+  }
+  
